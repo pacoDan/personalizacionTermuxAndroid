@@ -1,4 +1,4 @@
-### instalacion en amd64
+#### instalacion en amd64
 ```sh
 git clone https://github.com/pacoDan/personalizacionTermuxAndroid.git ~/Downloads/personalizacionTermux && cd ~/Downloads/personalizacionTermux && chmod +x install.sh && ./install.sh
 ```
@@ -10,3 +10,10 @@ sudo tar -xvzf ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
 ngrok config add-authtoken 2G4xo9bF8weamzf8IP90qsyvDJY_4B4SkUp9V1nfjfptUArXK
 ngrok http --domain=touching-ghost-sadly.ngrok-free.app 80
 ```
+
+primero hacer instalar  el sshd server en el termux 
+    o ssh portable, hay que probar y acceder al servidor termux a travez de internet
+
+para acceder a internet hay que prepapar el ngrok e inmstalarlo y tenerlo listo para recibir conexiones ssh
+
+######  con el objetivo de tener acceso a la consola de la terminal del termux
